@@ -1,0 +1,12 @@
+// Prints 1, 2, 6, 24, 12, 72, 504.
+var i = 1;
+var fact = 1;
+while (i < 8) {
+    fact = fact * i;
+    if (fact < 100) {
+        print(fact);
+    } else {
+        print(fact / 10);
+    }
+    i = i + 1;
+}
